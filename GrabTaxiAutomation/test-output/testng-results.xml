@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="62531" started-at="2016-06-07T16:40:57Z" finished-at="2016-06-07T16:41:59Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="62531" started-at="2016-06-07T16:40:57Z" finished-at="2016-06-07T16:41:59Z">
+      <class name="com.grab.androidautomation.TestScenarios">
+        <test-method status="PASS" signature="Initialise()[pri:0, instance:com.grab.androidautomation.TestScenarios@2d554825]" name="Initialise" is-config="true" duration-ms="5209" started-at="2016-06-07T22:10:57Z" finished-at="2016-06-07T22:11:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Initialise -->
+        <test-method status="PASS" signature="EditProfileNameAndSave()[pri:1, instance:com.grab.androidautomation.TestScenarios@2d554825]" name="EditProfileNameAndSave" duration-ms="34624" started-at="2016-06-07T22:11:02Z" finished-at="2016-06-07T22:11:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EditProfileNameAndSave -->
+        <test-method status="PASS" signature="VerifySideMenuOptions()[pri:2, instance:com.grab.androidautomation.TestScenarios@2d554825]" name="VerifySideMenuOptions" duration-ms="2302" started-at="2016-06-07T22:11:37Z" finished-at="2016-06-07T22:11:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySideMenuOptions -->
+        <test-method status="PASS" signature="VerifyHistoryPage()[pri:3, instance:com.grab.androidautomation.TestScenarios@2d554825]" name="VerifyHistoryPage" duration-ms="8149" started-at="2016-06-07T22:11:39Z" finished-at="2016-06-07T22:11:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyHistoryPage -->
+        <test-method status="PASS" signature="VerifyDriveWithGrabBrowser()[pri:4, instance:com.grab.androidautomation.TestScenarios@2d554825]" name="VerifyDriveWithGrabBrowser" duration-ms="5108" started-at="2016-06-07T22:11:47Z" finished-at="2016-06-07T22:11:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyDriveWithGrabBrowser -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.grab.androidautomation.TestScenarios@2d554825]" name="TearDown" is-config="true" duration-ms="7122" started-at="2016-06-07T22:11:52Z" finished-at="2016-06-07T22:11:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.grab.androidautomation.TestScenarios -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
