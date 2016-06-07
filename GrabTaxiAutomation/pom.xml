@@ -56,7 +56,7 @@
         <version>2.19.1</version>
         <configuration>
           <suiteXmlFiles>
-            <suiteXmlFile>/Users/balaji/Documents/NewQuicken/balaji2/QuickenAutomation/AndroidSmoke.xml</suiteXmlFile>
+            <suiteXmlFile>/Users/balaji/Documents/GrabTaxi/GrabTaxiAutomation/Suite.xml</suiteXmlFile>
           </suiteXmlFiles>
         </configuration>
       </plugin>

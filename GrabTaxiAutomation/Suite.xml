@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="GrabTaxiSuite" verbose="1" >
+  <test name="MultipleTestScenarios" >
+    <classes>
+       <class name="com.grab.androidautomation.TestScenarios" />
+    </classes>
+  </test>
+  </suite>
