@@ -111,7 +111,14 @@ public class VerifyAddingAndRemovingCreditCard extends BaseTest {
 		
 		System.out.println("Navigating back from grab pay page");
 		AppiumDriverCommonUtilities.findElementByXpathAndClick(driver, ObjectsXpath.getProperty("GRABPAYBACKBTN_XPATH"));
-
+		
+		System.out.println("Select the drop off location");
+		AppiumDriverCommonUtilities.findElementByXpathAndClick(driver, ObjectsXpath.getProperty("DROPOFF_XPATH"));
+		AppiumDriverCommonUtilities.findElementByXpathAndSendKeys(driver, ObjectsXpath.getProperty("DROPOFFTEXT_XPATH"),"Changi Airport Terminal 2");
+		
+		System.out.println("Verify the Selected the drop off location is reflected");
+		AppiumDriverCommonUtilities.verifTextInElement(driver, ObjectsXpath.getProperty("DROPOFF_XPATH"),"Changi Airport Terminal 2");
+		
 	}
 	
 
