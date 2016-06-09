@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.grab.androidautomation.TestScenarios">
+      <class name="com.grab.androidautomation.VerifyAddingAndRemovingCreditCard">
         <methods>
+          <include name="AddRemoveAndVerifyCredit" invocation-numbers="0 1"/>
           <include name="TearDown"/>
-          <include name="VerifyDriveWithGrabBrowser"/>
           <include name="Initialise"/>
         </methods>
-      </class> <!-- com.grab.androidautomation.TestScenarios -->
+      </class> <!-- com.grab.androidautomation.VerifyAddingAndRemovingCreditCard -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
